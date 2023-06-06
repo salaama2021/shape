@@ -1,71 +1,57 @@
-.flexbox-container {
-  display: flex;
-  align-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
+.App {
+    background-image: url("./components/images/snap.jpg");
+    background-size: "flex";
+    height: 300vh;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+  }
+  
+  .btn{
+      width: 80px;
+      height: 30px;
+      background-color: #FF8E8E;
+      color: black;
+      font-size: 5px;
+      border: whitesmoke;
+      align-items: center;
+      justify-content: center;
+      margin: 50px;
+    }
+    
+    .form-label {
+      width: 500px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
 
-}
+    }
 
-.flexbox-item {
-  width: 200px;
-  margin:10px;
-  border: 4px ;
-  background-color: greenyellow;
-}
+    .form-control {
+      display: flex;
+      flex-direction: row;
+      height: 400px;
+      border: black;
+      margin-top: 5px;
+      padding-left: 50px;
+    }
 
-.flexbox-item-1 {
-  min-height: 100px;
-}
+    .form-check-label {
+      width: 500px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+    }
 
-.flexbox-item-2 {
-  min-height: 100px;
-}
+    .form-check-input {
+      display: flex;
+      flex-direction: row;
+      height: 400px;
+      border: black;
+      margin-top: 5px;
+      padding-left: 50px;
+    }
 
-.flexbox-item-3 {
-  min-height: 100px;
-}
-
-
-.flexbox-square {
-  display: flex;
-  align-content: space-between;
-  align-items: center;
-}
-
-.flexbox-box {
-  width: 200px;
-  border: 4px ;
-  margin: 10px;
-  background-color: blue;
-}
-
-.flexbox-box-1 {
-  min-height: 500px;
-}
-
-.flexbox-box-2 {
-  min-height: 200px;
-  border-radius: 100%;
-  border: 1px solid;
-}
-
-.flexbox-box-3 {
-  min-height: 500px;
-}
-
-
-.flexbox-one {
-  display: flex;
-  align-items: center;
-}
-
-.flexbox-row {
-  width: 650px;
-  margin: 10px;
-  border: 4px ;
-  background-color:orange;
-}
-
-.flexbox-row-1 {
-  min-height: 100px;
-}
